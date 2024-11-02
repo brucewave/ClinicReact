@@ -12,11 +12,11 @@ function Appointments() {
               <div className="col-md-12 col-12">
                 <nav aria-label="breadcrumb" className="page-breadcrumb">
                   <ol className="breadcrumb">
-                    <li className="breadcrumb-item"><a href="index-2.html">Home</a></li>
-                    <li className="breadcrumb-item active" aria-current="page">Appointments</li>
+                    <li className="breadcrumb-item"><a href="/Home">Trang Chủ</a></li>
+                    <li className="breadcrumb-item active" aria-current="page">Lịch Hẹn</li>
                   </ol>
                 </nav>
-                <h2 className="breadcrumb-title">Appointments</h2>
+                <h2 className="breadcrumb-title">Lịch Hẹn</h2>
               </div>
             </div>
           </div>
@@ -33,12 +33,12 @@ function Appointments() {
                   <div className="widget-profile pro-widget-content">
                     <div className="profile-info-widget">
                       <a href="#" className="booking-doc-img">
-                        <img src="assets/img/doctors/doctor-thumb-02.jpg" alt="User" />
+                        <img src="assets/img/doctors/doctor-thumb-02.jpg" alt="Người Dùng" />
                       </a>
                       <div className="profile-det-info">
                         <h3>Dr. Darren Elder</h3>
                         <div className="patient-details">
-                          <h5 className="mb-0">BDS, MDS - Oral & Maxillofacial Surgery</h5>
+                          <h5 className="mb-0">BDS, MDS - Phẫu Thuật Miệng và Hàm Mặt</h5>
                         </div>
                       </div>
                     </div>
@@ -47,70 +47,70 @@ function Appointments() {
                     <nav className="dashboard-menu">
                       <ul>
                         <li>
-                          <a href="doctor-dashboard.html">
+                          <a href="/doctorDashboard">
                             <i className="fas fa-columns"></i>
-                            <span>Dashboard</span>
+                            <span>Bảng Điều Khiển</span>
                           </a>
                         </li>
                         <li className="active">
-                          <a href="appointments.html">
+                          <a href="/Appointments">
                             <i className="fas fa-calendar-check"></i>
-                            <span>Appointments</span>
+                            <span>Lịch Hẹn</span>
                           </a>
                         </li>
                         <li>
-                          <a href="my-patients.html">
+                          <a href="/patientProfile">
                             <i className="fas fa-user-injured"></i>
-                            <span>My Patients</span>
+                            <span>Bệnh Nhân Của Tôi</span>
                           </a>
                         </li>
                         <li>
-                          <a href="schedule-timings.html">
+                          <a href="/scheduleTimings">
                             <i className="fas fa-hourglass-start"></i>
-                            <span>Schedule Timings</span>
+                            <span>Lịch</span>
                           </a>
                         </li>
                         <li>
-                          <a href="invoices.html">
+                          <a href="/Invoice">
                             <i className="fas fa-file-invoice"></i>
-                            <span>Invoices</span>
+                            <span>Hóa Đơn</span>
                           </a>
                         </li>
                         <li>
-                          <a href="reviews.html">
+                          <a href="/Reviews">
                             <i className="fas fa-star"></i>
-                            <span>Reviews</span>
+                            <span>Đánh Giá</span>
                           </a>
                         </li>
                         <li>
-                          <a href="chat-doctor.html">
+                          <a href="/Chat">
                             <i className="fas fa-comments"></i>
-                            <span>Message</span>
+                            <span>Tin Nhắn</span>
                             <small className="unread-msg">23</small>
                           </a>
                         </li>
                         <li>
-                          <a href="doctor-profile-settings.html">
+                          <a href="/doctorProfileSettings">
                             <i className="fas fa-user-cog"></i>
-                            <span>Profile Settings</span>
+                            <span>Cài Đặt Hồ Sơ</span>
                           </a>
                         </li>
                         <li>
                           <a href="social-media.html">
                             <i className="fas fa-share-alt"></i>
-                            <span>Social Media</span>
+                            <span>Mạng Xã Hội</span>
                           </a>
                         </li>
                         <li>
-                          <a href="doctor-change-password.html">
+                          <a href="doctor-/changePassword">
                             <i className="fas fa-lock"></i>
-                            <span>Change Password</span>
+                            <span>Đổi Mật Khẩu</span>
                           </a>
                         </li>
                         <li>
-                          <a href="index-2.html">
+                          <a href="/Home">
                             <i className="fas fa-sign-out-alt"></i>
-                            <span>Logout</span>
+                            <span>Đăng Xuất</span>
                           </a>
                         </li>
                       </ul>
@@ -121,18 +121,18 @@ function Appointments() {
               </div>
               
               <div className="col-md-7 col-lg-8 col-xl-9">
-                <div className="appointments">
+                <div className="Appointments">
                   {/* Appointment List */}
                   <div className="appointment-list">
                     <div className="profile-info-widget">
-                      <a href="patient-profile.html" className="booking-doc-img">
-                        <img src="assets/img/patients/patient.jpg" alt="User" />
+                      <a href="/patientProfile" className="booking-doc-img">
+                        <img src="assets/img/patients/patient.jpg" alt="Người Dùng" />
                       </a>
                       <div className="profile-det-info">
-                        <h3><a href="patient-profile.html">Richard Wilson</a></h3>
+                        <h3><a href="/patientProfile">Richard Wilson</a></h3>
                         <div className="patient-details">
-                          <h5><i className="far fa-clock"></i> 14 Nov 2019, 10.00 AM</h5>
-                          <h5><i className="fas fa-map-marker-alt"></i> Newyork, United States</h5>
+                          <h5><i className="far fa-clock"></i> 14 Tháng 11, 2019, 10:00 Sáng</h5>
+                          <h5><i className="fas fa-map-marker-alt"></i> Newyork, Hoa Kỳ</h5>
                           <h5><i className="fas fa-envelope"></i> richard@example.com</h5>
                           <h5 className="mb-0"><i className="fas fa-phone"></i> +1 923 782 4575</h5>
                         </div>
@@ -140,18 +140,18 @@ function Appointments() {
                     </div>
                     <div className="appointment-action">
                       <a href="#" className="btn btn-sm bg-info-light" data-toggle="modal" data-target="#appt_details">
-                        <i className="far fa-eye"></i> View
+                        <i className="far fa-eye"></i> Xem
                       </a>
                       <a href="javascript:void(0);" className="btn btn-sm bg-success-light">
-                        <i className="fas fa-check"></i> Accept
+                        <i className="fas fa-check"></i> Chấp Nhận
                       </a>
                       <a href="javascript:void(0);" className="btn btn-sm bg-danger-light">
-                        <i className="fas fa-times"></i> Cancel
+                        <i className="fas fa-times"></i> Hủy
                       </a>
                     </div>
                   </div>
                   {/* /Appointment List */}
-                  {/* Repeat similar blocks for other appointments */}
+                  {/* Repeat similar blocks for other Appointments */}
                 </div>
               </div>
             </div>
@@ -166,7 +166,7 @@ function Appointments() {
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content">
             <div className="modal-header">
-              <h5 className="modal-title">Appointment Details</h5>
+              <h5 className="modal-title">Chi Tiết Lịch Hẹn</h5>
               <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -178,26 +178,26 @@ function Appointments() {
                     <div className="row">
                       <div className="col-md-6">
                         <span className="title">#APT0001</span>
-                        <span className="text">21 Oct 2019 10:00 AM</span>
+                        <span className="text">21 Tháng 10, 2019 10:00 Sáng</span>
                       </div>
                       <div className="col-md-6">
                         <div className="text-right">
-                          <button type="button" className="btn bg-success-light btn-sm" id="topup_status">Completed</button>
+                          <button type="button" className="btn bg-success-light btn-sm" id="topup_status">Đã Hoàn Thành</button>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
                 <li>
-                  <span className="title">Status:</span>
-                  <span className="text">Completed</span>
+                  <span className="title">Trạng Thái:</span>
+                  <span className="text">Đã Hoàn Thành</span>
                 </li>
                 <li>
-                  <span className="title">Confirm Date:</span>
-                  <span className="text">29 Jun 2019</span>
+                  <span className="title">Ngày Xác Nhận:</span>
+                  <span className="text">29 Tháng 6, 2019</span>
                 </li>
                 <li>
-                  <span className="title">Paid Amount</span>
+                  <span className="title">Số Tiền Đã Thanh Toán:</span>
                   <span className="text">$450</span>
                 </li>
               </ul>

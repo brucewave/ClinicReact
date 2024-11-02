@@ -1,9 +1,9 @@
 import React from 'react'
 
-function myPatients() {
+function patientProfile() {
   return (
-    <div>myPatients</div>
+    <div>patientProfile</div>
   )
 }
 
-export default myPatients
+export default patientProfile

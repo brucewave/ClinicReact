@@ -10,11 +10,11 @@ function Booking() {
               <div className="col-md-12 col-12">
                 <nav aria-label="breadcrumb" className="page-breadcrumb">
                   <ol className="breadcrumb">
-                    <li className="breadcrumb-item"><a href="index-2.html">Home</a></li>
+                    <li className="breadcrumb-item"><a href="/Home">Home</a></li>
                     <li className="breadcrumb-item active" aria-current="page">Booking</li>
                   </ol>
                 </nav>
-                <h2 className="breadcrumb-title">Booking</h2>
+                <h2 className="breadcrumb-title">Đặt Lịch Hẹn</h2>
               </div>
             </div>
           </div>
@@ -29,11 +29,11 @@ function Booking() {
                 <div className="card">
                   <div className="card-body">
                     <div className="booking-doc-info">
-                      <a href="doctor-profile.html" className="booking-doc-img">
+                      <a href="/doctorProfile" className="booking-doc-img">
                         <img src="assets/img/doctors/doctor-thumb-02.jpg" alt="User Image" />
                       </a>
                       <div className="booking-info">
-                        <h4><a href="doctor-profile.html">Dr. Darren Elder</a></h4>
+                        <h4><a href="/doctorProfile">Dr. Darren Elder</a></h4>
                         <div className="rating">
                           <i className="fas fa-star filled"></i>
                           <i className="fas fa-star filled"></i>
@@ -63,31 +63,31 @@ function Booking() {
                               </a>
                             </li>
                             <li>
-                              <span>Mon</span>
+                              <span>Thứ 2</span>
                               <span className="slot-date">11 Nov <small className="slot-year">2019</small></span>
                             </li>
                             <li>
-                              <span>Tue</span>
+                              <span>Thứ 3</span>
                               <span className="slot-date">12 Nov <small className="slot-year">2019</small></span>
                             </li>
                             <li>
-                              <span>Wed</span>
+                              <span>Thứ 4</span>
                               <span className="slot-date">13 Nov <small className="slot-year">2019</small></span>
                             </li>
                             <li>
-                              <span>Thu</span>
+                              <span>Thứ 5</span>
                               <span className="slot-date">14 Nov <small className="slot-year">2019</small></span>
                             </li>
                             <li>
-                              <span>Fri</span>
+                              <span>Thứ 6</span>
                               <span className="slot-date">15 Nov <small className="slot-year">2019</small></span>
                             </li>
                             <li>
-                              <span>Sat</span>
+                              <span>Thứ 7</span>
                               <span className="slot-date">16 Nov <small className="slot-year">2019</small></span>
                             </li>
                             <li>
-                              <span>Sun</span>
+                              <span>Chủ Nhật</span>
                               <span className="slot-date">17 Nov <small className="slot-year">2019</small></span>
                             </li>
                             <li className="right-arrow">
@@ -199,7 +199,7 @@ function Booking() {
                 
                 {/* Submit Section */}
                 <div className="submit-section proceed-btn text-right">
-                  <a href="checkout.html" className="btn btn-primary submit-btn">Proceed to Pay</a>
+                  <a href="/Checkout" className="btn btn-primary submit-btn">Tiến Hành Thanh Toán</a>
                 </div>
                 {/* /Submit Section */}
               </div>

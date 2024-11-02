@@ -17,13 +17,13 @@ function VoiceCall() {
                       <div className="navbar">
                         <div className="user-details mr-auto">
                           <div className="float-left user-img">
-                            <a className="avatar avatar-sm mr-2" href="patient-profile.html" title="Charlene Reed">
+                            <a className="avatar avatar-sm mr-2" href="/patientProfile" title="Charlene Reed">
                               <img src="assets/img/patients/patient1.jpg" alt="User Image" className="rounded-circle" />
                               <span className="status online"></span>
                             </a>
                           </div>
                           <div className="user-info float-left">
-                            <a href="patient-profile.html"><span>Người Cần Tư Vấn</span></a>
+                            <a href="/patientProfile"><span>Người Cần Tư Vấn</span></a>
                             <span className="last-seen">Online</span>
                           </div>
                         </div>

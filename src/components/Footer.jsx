@@ -18,7 +18,7 @@ function Footer() {
                     <img src="assets/img/footer-logo.png" alt="logo" />
                   </div>
                   <div className="footer-about-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Chúng tôi cung cấp dịch vụ chăm sóc sức khỏe tốt nhất cho bạn.</p>
                     <div className="social-icon">
                       <ul>
                         <li>
@@ -48,13 +48,12 @@ function Footer() {
               
                 {/* Footer Widget */}
                 <div className="footer-widget footer-menu">
-                  <h2 className="footer-title">For Patients</h2>
+                  <h2 className="footer-title">Bệnh Nhân</h2>
                   <ul>
-                    <li><a href="search.html"><i className="fas fa-angle-double-right"></i> Search for Doctors</a></li>
-                    <li><a href="login.html"><i className="fas fa-angle-double-right"></i> Login</a></li>
-                    <li><a href="register.html"><i className="fas fa-angle-double-right"></i> Register</a></li>
-                    <li><a href="booking.html"><i className="fas fa-angle-double-right"></i> Booking</a></li>
-                    <li><a href="patient-dashboard.html"><i className="fas fa-angle-double-right"></i> Patient Dashboard</a></li>
+                    <li><a href="/Search"><i className="fas fa-angle-double-right"></i> Tìm Kiếm Bác Sĩ</a></li>
+                    <li><a href="/login"><i className="fas fa-angle-double-right"></i> Đăng Nhập</a></li>
+                    <li><a href="/Register"><i className="fas fa-angle-double-right"></i> Đăng Ký</a></li>
+                    <li><a href="/Booking"><i className="fas fa-angle-double-right"></i> Đặt Lịch</a></li>
                   </ul>
                 </div>
                 {/* /Footer Widget */}
@@ -65,13 +64,13 @@ function Footer() {
               
                 {/* Footer Widget */}
                 <div className="footer-widget footer-menu">
-                  <h2 className="footer-title">For Doctors</h2>
+                  <h2 className="footer-title">Bác Sĩ</h2>
                   <ul>
-                    <li><a href="appointments.html"><i className="fas fa-angle-double-right"></i> Appointments</a></li>
-                    <li><a href="chat.html"><i className="fas fa-angle-double-right"></i> Chat</a></li>
-                    <li><a href="login.html"><i className="fas fa-angle-double-right"></i> Login</a></li>
-                    <li><a href="doctor-register.html"><i className="fas fa-angle-double-right"></i> Register</a></li>
-                    <li><a href="doctor-dashboard.html"><i className="fas fa-angle-double-right"></i> Doctor Dashboard</a></li>
+                    <li><a href="/Appointments"><i className="fas fa-angle-double-right"></i> Cuộc Hẹn</a></li>
+                    <li><a href="/Chat"><i className="fas fa-angle-double-right"></i> Bot Chat</a></li>
+                    <li><a href="/login"><i className="fas fa-angle-double-right"></i> Đăng Nhập</a></li>
+                    <li><a href="/register"><i className="fas fa-angle-double-right"></i> Đăng Ký</a></li>
+                    <li><a href="/doctorDashboard"><i className="fas fa-angle-double-right"></i> Bác Sĩ Dashboard</a></li>
                   </ul>
                 </div>
                 {/* /Footer Widget */}
@@ -82,11 +81,11 @@ function Footer() {
               
                 {/* Footer Widget */}
                 <div className="footer-widget footer-contact">
-                  <h2 className="footer-title">Contact Us</h2>
+                  <h2 className="footer-title">Liên Hệ Chúng Tôi</h2>
                   <div className="footer-contact-info">
                     <div className="footer-address">
                       <span><i className="fas fa-map-marker-alt"></i></span>
-                      <p>3556 Beech Street, San Francisco,<br /> California, CA 94108</p>
+                      <p>1234 Nguyễn Văn Cừ, Quận 5, TP.HCM</p>
                     </div>
                     <p>
                       <i className="fas fa-phone-alt"></i>
@@ -124,8 +123,8 @@ function Footer() {
                   {/* Copyright Menu */}
                   <div className="copyright-menu">
                     <ul className="policy-menu">
-                      <li><a href="term-condition.html">Terms and Conditions</a></li>
-                      <li><a href="privacy-policy.html">Policy</a></li>
+                      <li><a href="term-condition.html">Điều Khoản và Điều Kiện</a></li>
+                      <li><a href="privacy-policy.html">Chính Sách Bảo Mật</a></li>
                     </ul>
                   </div>
                   {/* /Copyright Menu */}

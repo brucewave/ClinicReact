@@ -39,22 +39,22 @@ function Home() {
         <div className="container-fluid">
           <div className="banner-wrapper">
             <div className="banner-header text-center">
-              <h1>Search Doctor, Make an Appointment</h1>
-              <p>Discover the best doctors, clinic & hospital the city nearest to you.</p>
+              <h1>Tìm Bác Sĩ, Đặt Lịch Hẹn</h1>
+              <p>Tìm kiếm những bác sĩ, phòng khám & bệnh viện tốt nhất gần bạn.</p>
             </div>
             {/* Search */}
             <div className="search-box">
               <form action="templateshub.net">
                 <div className="form-group search-location">
-                  <input type="text" className="form-control" placeholder="Search Location" />
-                  <span className="form-text">Based on your Location</span>
+                  <input type="text" className="form-control" placeholder="Tìm Kiếm Địa Điểm" />
+                  <span className="form-text">Dựa trên vị trí của bạn</span>
                 </div>
                 <div className="form-group search-info">
-                  <input type="text" className="form-control" placeholder="Search Doctors, Clinics, Hospitals, Diseases Etc" />
-                  <span className="form-text">Ex : Dental or Sugar Check up etc</span>
+                  <input type="text" className="form-control" placeholder="Tìm Bác Sĩ, Phòng Khám, Bệnh Viện, Bệnh Tật, v.v." />
+                  <span className="form-text">Ví dụ: Nha Khoa hoặc Kiểm Tra Đường Huyết</span>
                 </div>
                 <button type="submit" className="btn btn-primary search-btn">
-                  <i className="fas fa-search"></i> <span>Search</span>
+                  <i className="fas fa-search"></i> <span>Tìm Kiếm</span>
                 </button>
               </form>
             </div>
@@ -71,13 +71,13 @@ function Home() {
           <div className="row">
             <div className="col-lg-4">
               <div className="section-header ">
-                <h2>Book Our Doctor</h2>
-                <p>Lorem Ipsum is simply dummy text </p>
+                <h2>Đặt Lịch Bác Sĩ Của Chúng Tôi</h2>
+                <p>Lorem Ipsum là văn bản giả mạo đơn giản</p>
               </div>
               <div className="about-content">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
-                <p>web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes</p>
-                <a href="javascript:;">Read More..</a>
+                <p>Đó là một thực tế đã được thiết lập lâu dài rằng một độc giả sẽ bị phân tâm bởi nội dung có thể đọc được của một trang khi nhìn vào bố cục của nó. Điểm của việc sử dụng Lorem Ipsum.</p>
+                <p>Các biên tập viên trang web hiện nay sử dụng Lorem Ipsum làm văn bản mẫu mặc định của họ, và một tìm kiếm cho 'lorem ipsum' sẽ phát hiện ra nhiều trang web vẫn còn trong giai đoạn đầu. Nhiều phiên bản đã phát triển qua nhiều năm, đôi khi</p>
+                <a href="javascript:;">Đọc Thêm..</a>
               </div>
             </div>
             <div className="col-lg-8">
@@ -85,7 +85,7 @@ function Home() {
                 <Slider {...settings}>
                   <div className="profile-widget">
                     <div className="doc-img">
-                      <a href="doctor-profile.html">
+                      <a href="/doctorProfile">
                         <img className="img-fluid" alt="User Image" src="assets/img/doctors/doctor-01.jpg" />
                       </a>
                       <a href="javascript:void(0)" className="fav-btn">
@@ -94,10 +94,10 @@ function Home() {
                     </div>
                     <div className="pro-content">
                       <h3 className="title">
-                        <a href="doctor-profile.html">Ruby Perrin</a>
+                        <a href="/doctorProfile">Ruby Perrin</a>
                         <i className="fas fa-check-circle verified"></i>
                       </h3>
-                      <p className="speciality">MDS - Periodontology and Oral Implantology, BDS</p>
+                      <p className="speciality">MDS - Nha Chu và Cấy Ghép Răng, BDS</p>
                       <div className="rating">
                         <i className="fas fa-star filled"></i>
                         <i className="fas fa-star filled"></i>
@@ -111,7 +111,7 @@ function Home() {
                           <i className="fas fa-map-marker-alt"></i> Florida, USA
                         </li>
                         <li>
-                          <i className="far fa-clock"></i> Available on Fri, 22 Mar
+                          <i className="far fa-clock"></i> Có mặt vào Thứ Sáu, 22 Tháng 3
                         </li>
                         <li>
                           <i className="far fa-money-bill-alt"></i> $300 - $1000
@@ -120,17 +120,17 @@ function Home() {
                       </ul>
                       <div className="row row-sm">
                         <div className="col-6">
-                          <a href="doctor-profile.html" className="btn view-btn">View Profile</a>
+                          <a href="/doctorProfile" className="btn view-btn">Xem Hồ Sơ</a>
                         </div>
                         <div className="col-6">
-                          <a href="booking.html" className="btn book-btn">Book Now</a>
+                          <a href="/Booking" className="btn book-btn">Đặt Lịch</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="profile-widget">
                     <div className="doc-img">
-                      <a href="doctor-profile.html">
+                      <a href="/doctorProfile">
                         <img className="img-fluid" alt="User Image" src="assets/img/doctors/doctor-02.jpg" />
                       </a>
                       <a href="javascript:void(0)" className="fav-btn">
@@ -139,10 +139,10 @@ function Home() {
                     </div>
                     <div className="pro-content">
                       <h3 className="title">
-                        <a href="doctor-profile.html">Darren Elder</a>
+                        <a href="/doctorProfile">Darren Elder</a>
                         <i className="fas fa-check-circle verified"></i>
                       </h3>
-                      <p className="speciality">BDS, MDS - Oral & Maxillofacial Surgery</p>
+                      <p className="speciality">BDS, MDS - Phẫu Thuật Miệng và Hàm Mặt</p>
                       <div className="rating">
                         <i className="fas fa-star filled"></i>
                         <i className="fas fa-star filled"></i>
@@ -156,7 +156,7 @@ function Home() {
                           <i className="fas fa-map-marker-alt"></i> Newyork, USA
                         </li>
                         <li>
-                          <i className="far fa-clock"></i> Available on Fri, 22 Mar
+                          <i className="far fa-clock"></i> Có mặt vào Thứ Sáu, 22 Tháng 3
                         </li>
                         <li>
                           <i className="far fa-money-bill-alt"></i> $50 - $300
@@ -165,17 +165,17 @@ function Home() {
                       </ul>
                       <div className="row row-sm">
                         <div className="col-6">
-                          <a href="doctor-profile.html" className="btn view-btn">View Profile</a>
+                          <a href="/doctorProfile" className="btn view-btn">Xem Hồ Sơ</a>
                         </div>
                         <div className="col-6">
-                          <a href="booking.html" className="btn book-btn">Book Now</a>
+                          <a href="/Booking" className="btn book-btn">Đặt Lịch</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="profile-widget">
                     <div className="doc-img">
-                      <a href="doctor-profile.html">
+                      <a href="/doctorProfile">
                         <img className="img-fluid" alt="User Image" src="assets/img/doctors/doctor-03.jpg" />
                       </a>
                       <a href="javascript:void(0)" className="fav-btn">
@@ -184,10 +184,10 @@ function Home() {
                     </div>
                     <div className="pro-content">
                       <h3 className="title">
-                        <a href="doctor-profile.html">Deborah Angel</a>
+                        <a href="/doctorProfile">Deborah Angel</a>
                         <i className="fas fa-check-circle verified"></i>
                       </h3>
-                      <p className="speciality">MBBS, MD - General Medicine, DNB - Cardiology</p>
+                      <p className="speciality">MBBS, MD - Y học Tổng quát, DNB - Tim mạch</p>
                       <div className="rating">
                         <i className="fas fa-star filled"></i>
                         <i className="fas fa-star filled"></i>
@@ -201,7 +201,7 @@ function Home() {
                           <i className="fas fa-map-marker-alt"></i> Georgia, USA
                         </li>
                         <li>
-                          <i className="far fa-clock"></i> Available on Fri, 22 Mar
+                          <i className="far fa-clock"></i> Có mặt vào Thứ Sáu, 22 Tháng 3
                         </li>
                         <li>
                           <i className="far fa-money-bill-alt"></i> $100 - $400
@@ -210,17 +210,17 @@ function Home() {
                       </ul>
                       <div className="row row-sm">
                         <div className="col-6">
-                          <a href="doctor-profile.html" className="btn view-btn">View Profile</a>
+                          <a href="/doctorProfile" className="btn view-btn">Xem Hồ Sơ</a>
                         </div>
                         <div className="col-6">
-                          <a href="booking.html" className="btn book-btn">Book Now</a>
+                          <a href="/Booking" className="btn book-btn">Đặt Lịch</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="profile-widget">
                     <div className="doc-img">
-                      <a href="doctor-profile.html">
+                      <a href="/doctorProfile">
                         <img className="img-fluid" alt="User Image" src="assets/img/doctors/doctor-04.jpg" />
                       </a>
                       <a href="javascript:void(0)" className="fav-btn">
@@ -229,10 +229,10 @@ function Home() {
                     </div>
                     <div className="pro-content">
                       <h3 className="title">
-                        <a href="doctor-profile.html">Sofia Brient</a>
+                        <a href="/doctorProfile">Sofia Brient</a>
                         <i className="fas fa-check-circle verified"></i>
                       </h3>
-                      <p className="speciality">MBBS, MS - General Surgery, MCh - Urology</p>
+                      <p className="speciality">MBBS, MS - Phẫu Thuật Tổng quát, MCh - Tiết niệu</p>
                       <div className="rating">
                         <i className="fas fa-star filled"></i>
                         <i className="fas fa-star filled"></i>
@@ -246,7 +246,7 @@ function Home() {
                           <i className="fas fa-map-marker-alt"></i> Louisiana, USA
                         </li>
                         <li>
-                          <i className="far fa-clock"></i> Available on Fri, 22 Mar
+                          <i className="far fa-clock"></i> Có mặt vào Thứ Sáu, 22 Tháng 3
                         </li>
                         <li>
                           <i className="far fa-money-bill-alt"></i> $150 - $250
@@ -255,17 +255,17 @@ function Home() {
                       </ul>
                       <div className="row row-sm">
                         <div className="col-6">
-                          <a href="doctor-profile.html" className="btn view-btn">View Profile</a>
+                          <a href="/doctorProfile" className="btn view-btn">Xem Hồ Sơ</a>
                         </div>
                         <div className="col-6">
-                          <a href="booking.html" className="btn book-btn">Book Now</a>
+                          <a href="/Booking" className="btn book-btn">Đặt Lịch</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="profile-widget">
                     <div className="doc-img">
-                      <a href="doctor-profile.html">
+                      <a href="/doctorProfile">
                         <img className="img-fluid" alt="User Image" src="assets/img/doctors/doctor-05.jpg" />
                       </a>
                       <a href="javascript:void(0)" className="fav-btn">
@@ -274,10 +274,10 @@ function Home() {
                     </div>
                     <div className="pro-content">
                       <h3 className="title">
-                        <a href="doctor-profile.html">Marvin Campbell</a>
+                        <a href="/doctorProfile">Marvin Campbell</a>
                         <i className="fas fa-check-circle verified"></i>
                       </h3>
-                      <p className="speciality">MBBS, MD - Ophthalmology, DNB - Ophthalmology</p>
+                      <p className="speciality">MBBS, MD - Nhãn khoa, DNB - Nhãn khoa</p>
                       <div className="rating">
                         <i className="fas fa-star filled"></i>
                         <i className="fas fa-star filled"></i>
@@ -291,7 +291,7 @@ function Home() {
                           <i className="fas fa-map-marker-alt"></i> Michigan, USA
                         </li>
                         <li>
-                          <i className="far fa-clock"></i> Available on Fri, 22 Mar
+                          <i className="far fa-clock"></i> Có mặt vào Thứ Sáu, 22 Tháng 3
                         </li>
                         <li>
                           <i className="far fa-money-bill-alt"></i> $50 - $700
@@ -300,17 +300,17 @@ function Home() {
                       </ul>
                       <div className="row row-sm">
                         <div className="col-6">
-                          <a href="doctor-profile.html" className="btn view-btn">View Profile</a>
+                          <a href="/doctorProfile" className="btn view-btn">Xem Hồ Sơ</a>
                         </div>
                         <div className="col-6">
-                          <a href="booking.html" className="btn book-btn">Book Now</a>
+                          <a href="/Booking" className="btn book-btn">Đặt Lịch</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="profile-widget">
                     <div className="doc-img">
-                      <a href="doctor-profile.html">
+                      <a href="/doctorProfile">
                         <img className="img-fluid" alt="User Image" src="assets/img/doctors/doctor-06.jpg" />
                       </a>
                       <a href="javascript:void(0)" className="fav-btn">
@@ -319,10 +319,10 @@ function Home() {
                     </div>
                     <div className="pro-content">
                       <h3 className="title">
-                        <a href="doctor-profile.html">Katharine Berthold</a>
+                        <a href="/doctorProfile">Katharine Berthold</a>
                         <i className="fas fa-check-circle verified"></i>
                       </h3>
-                      <p className="speciality">MS - Orthopaedics, MBBS, M.Ch - Orthopaedics</p>
+                      <p className="speciality">MS - Chấn thương chỉnh hình, MBBS, M.Ch - Chấn thương chỉnh hình</p>
                       <div className="rating">
                         <i className="fas fa-star filled"></i>
                         <i className="fas fa-star filled"></i>
@@ -336,7 +336,7 @@ function Home() {
                           <i className="fas fa-map-marker-alt"></i> Texas, USA
                         </li>
                         <li>
-                          <i className="far fa-clock"></i> Available on Fri, 22 Mar
+                          <i className="far fa-clock"></i> Có mặt vào Thứ Sáu, 22 Tháng 3
                         </li>
                         <li>
                           <i className="far fa-money-bill-alt"></i> $100 - $500
@@ -345,17 +345,17 @@ function Home() {
                       </ul>
                       <div className="row row-sm">
                         <div className="col-6">
-                          <a href="doctor-profile.html" className="btn view-btn">View Profile</a>
+                          <a href="/doctorProfile" className="btn view-btn">Xem Hồ Sơ</a>
                         </div>
                         <div className="col-6">
-                          <a href="booking.html" className="btn book-btn">Book Now</a>
+                          <a href="/Booking" className="btn book-btn">Đặt Lịch</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="profile-widget">
                     <div className="doc-img">
-                      <a href="doctor-profile.html">
+                      <a href="/doctorProfile">
                         <img className="img-fluid" alt="User Image" src="assets/img/doctors/doctor-07.jpg" />
                       </a>
                       <a href="javascript:void(0)" className="fav-btn">
@@ -364,10 +364,10 @@ function Home() {
                     </div>
                     <div className="pro-content">
                       <h3 className="title">
-                        <a href="doctor-profile.html">Linda Tobin</a>
+                        <a href="/doctorProfile">Linda Tobin</a>
                         <i className="fas fa-check-circle verified"></i>
                       </h3>
-                      <p className="speciality">MBBS, MD - General Medicine, DM - Neurology</p>
+                      <p className="speciality">MBBS, MD - Y học Tổng quát, DM - Thần kinh</p>
                       <div className="rating">
                         <i className="fas fa-star filled"></i>
                         <i className="fas fa-star filled"></i>
@@ -381,7 +381,7 @@ function Home() {
                           <i className="fas fa-map-marker-alt"></i> Kansas, USA
                         </li>
                         <li>
-                          <i className="far fa-clock"></i> Available on Fri, 22 Mar
+                          <i className="far fa-clock"></i> Có mặt vào Thứ Sáu, 22 Tháng 3
                         </li>
                         <li>
                           <i className="far fa-money-bill-alt"></i> $100 - $1000
@@ -390,17 +390,17 @@ function Home() {
                       </ul>
                       <div className="row row-sm">
                         <div className="col-6">
-                          <a href="doctor-profile.html" className="btn view-btn">View Profile</a>
+                          <a href="/doctorProfile" className="btn view-btn">Xem Hồ Sơ</a>
                         </div>
                         <div className="col-6">
-                          <a href="booking.html" className="btn book-btn">Book Now</a>
+                          <a href="/Booking" className="btn book-btn">Đặt Lịch</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="profile-widget">
                     <div className="doc-img">
-                      <a href="doctor-profile.html">
+                      <a href="/doctorProfile">
                         <img className="img-fluid" alt="User Image" src="assets/img/doctors/doctor-08.jpg" />
                       </a>
                       <a href="javascript:void(0)" className="fav-btn">
@@ -409,10 +409,10 @@ function Home() {
                     </div>
                     <div className="pro-content">
                       <h3 className="title">
-                        <a href="doctor-profile.html">Paul Richard</a>
+                        <a href="/doctorProfile">Paul Richard</a>
                         <i className="fas fa-check-circle verified"></i>
                       </h3>
-                      <p className="speciality">MBBS, MD - Dermatology , Venereology & Lepros</p>
+                      <p className="speciality">MBBS, MD - Da liễu, Bệnh phong & Leprosy</p>
                       <div className="rating">
                         <i className="fas fa-star filled"></i>
                         <i className="fas fa-star filled"></i>
@@ -426,7 +426,7 @@ function Home() {
                           <i className="fas fa-map-marker-alt"></i> California, USA
                         </li>
                         <li>
-                          <i className="far fa-clock"></i> Available on Fri, 22 Mar
+                          <i className="far fa-clock"></i> Có mặt vào Thứ Sáu, 22 Tháng 3
                         </li>
                         <li>
                           <i className="far fa-money-bill-alt"></i> $100 - $400
@@ -435,10 +435,10 @@ function Home() {
                       </ul>
                       <div className="row row-sm">
                         <div className="col-6">
-                          <a href="doctor-profile.html" className="btn view-btn">View Profile</a>
+                          <a href="/doctorProfile" className="btn view-btn">Xem Hồ Sơ</a>
                         </div>
                         <div className="col-6">
-                          <a href="booking.html" className="btn book-btn">Book Now</a>
+                          <a href="/Booking" className="btn book-btn">Đặt Lịch</a>
                         </div>
                       </div>
                     </div>
@@ -456,43 +456,43 @@ function Home() {
       <section className="section section-news">
         <div className="container-fluid">
           <div className="section-header text-center">
-            <h2>Latest News</h2>
-            <p className="sub-title">Stay updated with our latest news and articles</p>
+            <h2>Tin Tức Mới Nhất</h2>
+            <p className="sub-title">Cập nhật với tin tức và bài viết mới nhất của chúng tôi</p>
           </div>
           <div className="row">
             <div className="col-md-4">
               <div className="news-item" style={{ display: 'flex', alignItems: 'center', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', borderRadius: '15px', padding: '20px', backgroundColor: '#fff', marginBottom: '20px' }}>
                 <div className="news-img" style={{ flex: '1', textAlign: 'center' }}>
-                  <img src="assets/img/doctors/doctor-02.jpg" className="img-fluid" alt="News" style={{ borderRadius: '15px', maxWidth: '100%', height: 'auto' }} />
+                  <img src="assets/img/doctors/doctor-02.jpg" className="img-fluid" alt="Tin Tức" style={{ borderRadius: '15px', width: '100%', height: '200px', objectFit: 'cover' }} />
                 </div>
                 <div className="news-content" style={{ flex: '2', paddingLeft: '20px' }}>
-                  <h5>New Clinic Opening</h5>
-                  <p>We are excited to announce the opening of our new clinic in downtown.</p>
-                  <a href="#" className="btn btn-primary">Read More</a>
+                  <h5>Mở Phòng Khám Mới</h5>
+                  <p>Chúng tôi rất vui mừng thông báo về việc mở phòng khám mới của chúng tôi tại trung tâm thành phố.</p>
+                  <a href="#" className="btn btn-primary">Đọc Thêm</a>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
               <div className="news-item" style={{ display: 'flex', alignItems: 'center', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', borderRadius: '15px', padding: '20px', backgroundColor: '#fff', marginBottom: '20px' }}>
                 <div className="news-img" style={{ flex: '1', textAlign: 'center' }}>
-                  <img src="assets/img/doctors/doctor-02.jpg" className="img-fluid" alt="News" style={{ borderRadius: '15px', maxWidth: '100%', height: 'auto' }} />
+                  <img src="assets/img/doctors/doctor-02.jpg" className="img-fluid" alt="Tin Tức" style={{ borderRadius: '15px', width: '100%', height: '200px', objectFit: 'cover' }} />
                 </div>
                 <div className="news-content" style={{ flex: '2', paddingLeft: '20px' }}>
-                  <h5>Health Tips for Winter</h5>
-                  <p>Learn how to stay healthy during the cold winter months with our expert tips.</p>
-                  <a href="#" className="btn btn-primary">Read More</a>
+                  <h5>Mẹo Sức Khỏe Mùa Đông</h5>
+                  <p>Tìm hiểu cách giữ gìn sức khỏe trong những tháng mùa đông lạnh giá với các mẹo từ chuyên gia của chúng tôi.</p>
+                  <a href="#" className="btn btn-primary">Đọc Thêm</a>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
               <div className="news-item" style={{ display: 'flex', alignItems: 'center', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', borderRadius: '15px', padding: '20px', backgroundColor: '#fff', marginBottom: '20px' }}>
                 <div className="news-img" style={{ flex: '1', textAlign: 'center' }}>
-                  <img src="assets/img/doctors/doctor-02.jpg" className="img-fluid" alt="News" style={{ borderRadius: '15px', maxWidth: '100%', height: 'auto' }} />
+                  <img src="assets/img/doctors/doctor-02.jpg" className="img-fluid" alt="Tin Tức" style={{ borderRadius: '15px', width: '100%', height: '200px', objectFit: 'cover' }} />
                 </div>
                 <div className="news-content" style={{ flex: '2', paddingLeft: '20px' }}>
-                  <h5>COVID-19 Vaccine Updates</h5>
-                  <p>Stay informed about the latest updates on COVID-19 vaccines and availability.</p>
-                  <a href="#" className="btn btn-primary">Read More</a>
+                  <h5>Cập Nhật Về Vắc Xin COVID-19</h5>
+                  <p>Giữ thông tin về các cập nhật mới nhất về vắc xin COVID-19 và tình trạng sẵn có.</p>
+                  <a href="#" className="btn btn-primary">Đọc Thêm</a>
                 </div>
               </div>
             </div>
@@ -505,8 +505,8 @@ function Home() {
       <section className="section section-contact">
         <div className="container">
           <div className="section-header text-center">
-            <h2>Contact Us</h2>
-            <p className="sub-title">We'd love to hear from you! Please fill out the form below to get in touch.</p>
+            <h2>Liên Hệ</h2>
+            <p className="sub-title">Chúng Tôi Rất Vui Khi Nghe Từ Bạn! Vui Lòng Điền Form Bên Dưới Để Liên Hệ.</p>
           </div>
           <div className="profile-widget" style={{ display: 'flex', alignItems: 'center', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', borderRadius: '15px', padding: '20px', backgroundColor: '#fff' }}>
             <div className="doc-img" style={{ flex: '1', textAlign: 'center' }}>
@@ -515,15 +515,15 @@ function Home() {
             <div className="pro-content" style={{ flex: '2', paddingLeft: '20px' }}>
               <form className="contact-form">
                 <div className="form-group">
-                  <input type="text" className="form-control" placeholder="Your Name" style={{ marginBottom: '15px', padding: '10px', borderRadius: '5px', border: '1px solid #ccc', width: '100%' }} />
+                  <input type="text" className="form-control" placeholder="Tên Của Bạn" style={{ marginBottom: '15px', padding: '10px', borderRadius: '5px', border: '1px solid #ccc', width: '100%' }} />
                 </div>
                 <div className="form-group">
-                  <input type="email" className="form-control" placeholder="Your Email" style={{ marginBottom: '15px', padding: '10px', borderRadius: '5px', border: '1px solid #ccc', width: '100%' }} />
+                  <input type="email" className="form-control" placeholder="Email Của Bạn" style={{ marginBottom: '15px', padding: '10px', borderRadius: '5px', border: '1px solid #ccc', width: '100%' }} />
                 </div>
                 <div className="form-group">
-                  <textarea className="form-control" rows="5" placeholder="Your Message" style={{ marginBottom: '15px', padding: '10px', borderRadius: '5px', border: '1px solid #ccc', width: '100%' }}></textarea>
+                  <textarea className="form-control" rows="5" placeholder="Tin Nhắn Của Bạn" style={{ marginBottom: '15px', padding: '10px', borderRadius: '5px', border: '1px solid #ccc', width: '100%' }}></textarea>
                 </div>
-                <button type="submit" className="btn btn-primary" style={{ padding: '10px 20px', borderRadius: '5px', backgroundColor: '#007bff', color: '#fff', border: 'none' }}>Send Message</button>
+                <button type="submit" className="btn btn-primary" style={{ padding: '10px 20px', borderRadius: '5px', backgroundColor: '#007bff', color: '#fff', border: 'none' }}>Gửi Tin Nhắn</button>
               </form>
             </div>
           </div>

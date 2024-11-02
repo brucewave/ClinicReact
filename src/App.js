@@ -3,11 +3,6 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import Appointments from './pages/Appointments'
-import MyPatients from './pages/myPatients'
-import PatientDashboard from './pages/patientDashboard'
-import PatientProfile from './pages/patientProfile'
-import PrivacyPolicy from './pages/privacyPolicy'
-import ProfileSettings from './pages/profileSettings'
 import Reviews from './pages/Reviews'
 import Search from './pages/Search'
 import SocialMedia from './pages/socialMedia'
@@ -20,7 +15,21 @@ import Chat from './pages/Chat'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import ScheduleTimings from './pages/scheduleTimings'
-
+import DoctorRegister from './pages/doctorRegister'
+import Invoice from './pages/Invoice'
+import PatientProfile from './pages/patientProfile'
+import Checkout from './pages/Checkout'
+import AddPrescription from './pages/addPrescription'
+import AddBilling from './pages/addBilling'
+import DoctorProfile from './pages/doctorProfile'
+import DoctorDashboard from './pages/doctorDashboard'
+import DoctorProfileSettings from './pages/doctorProfileSettings'
+import BookingSuccess from './pages/bookingSuccess'
+import InvoiceView from './pages/invoiceView'
+import ProfileSettings from './pages/profileSettings'
+import ChangePassword from './pages/changePassword'
+import ForgotPassword from './pages/forgotPassword'
+import patientProfile from './pages/patientProfile'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -36,15 +45,13 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/doctorProfile" element={<doctorProfile />} />
-          <Route path="/appointment" element={<Appointments />} />
+          <Route path="/doctorProfile" element={<DoctorProfile />} />
           <Route path="/doctorAppointment" element={<doctorAppointment />} />
-          <Route path="/myPatients" element={<myPatients />} />
+          <Route path="/patientProfile" element={<PatientProfile />} />
           <Route path="/patientDashboard" element={<patientDashboard />} />
-          <Route path="/patientProfile" element={<patientProfile />} />
           <Route path="/privacyPolicy" element={<privacyPolicy />} />
-          <Route path="/profileSettings" element={<profileSettings />} />
-          <Route path="/reviews" element={<Reviews />} />
+          <Route path="/profileSettings" element={<ProfileSettings />} />
+          <Route path="/Reviews" element={<Reviews />} />
           <Route path="/scheduleTimings" element={<ScheduleTimings />} />
           <Route path="/search" element={<Search />} />
           <Route path="/socialMedia" element={<socialMedia />} />
@@ -54,6 +61,19 @@ function App() {
           <Route path="/favourites" element={<Favourites />} />
           <Route path="/booking" element={<Booking />} />
           <Route path="/chat" element={<Chat />} />
+          <Route path="/doctorRegister" element={<DoctorRegister />} />
+          <Route path="/Invoice" element={<Invoice />} />
+          <Route path="/patientProfile" element={<PatientProfile />} />
+          <Route path="/Checkout" element={<Checkout />} />
+          <Route path="/addPrescription" element={<AddPrescription />} />
+          <Route path="/addBilling" element={<AddBilling />} />
+          <Route path="/doctorProfileSettings" element={<DoctorProfileSettings />} />
+          <Route path="/doctorDashboard" element={<DoctorDashboard />} />
+          <Route path="/bookingSuccess" element={<BookingSuccess />} />
+          <Route path="/invoiceView" element={<InvoiceView />} />
+          <Route path="/ChangePassword" element={<ChangePassword />} />
+          <Route path="/ForgotPassword" element={<ForgotPassword />} />
+          <Route path="/Appointments" element={<Appointments />} />
         </Routes>
       </BrowserRouter>
       <Footer />

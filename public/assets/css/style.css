@@ -1,5 +1,5 @@
 /*
-Author       : Dreamguys
+Author       : C1SE.62
 Template Name: clinicbooking - Bootstrap Template
 Version      : 1.0
 */
@@ -5189,7 +5189,7 @@ html.menu-opened body {
     object-fit: cover;
     width: 120px;
 }
-.appointments .appointment-list {
+.Appointments .appointment-list {
 	background-color: #fff;
     border: 1px solid #f0f0f0;
     border-radius: 4px;
@@ -5201,10 +5201,10 @@ html.menu-opened body {
 	margin-bottom: 20px;
     padding: 20px;
 }
-.appointments .appointment-list:last-child {
+.Appointments .appointment-list:last-child {
 	margin-bottom: 30px;
 }
-.appointments .appointment-action {
+.Appointments .appointment-action {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
@@ -6059,10 +6059,10 @@ html.menu-opened body {
 	.container {
 		max-width: 100%;
 	}
-	.appointments .appointment-action {
+	.Appointments .appointment-action {
 		margin-top: 10px;
 	}
-	.appointments .appointment-list {
+	.Appointments .appointment-list {
 		display: block;
 	}
 	.banner-wrapper {
@@ -6686,7 +6686,7 @@ html.menu-opened body {
 	.login-header h3 {
 		text-align: center;
 	}
-	.appointments .appointment-list {
+	.Appointments .appointment-list {
 		text-align: center;
 	}
 	.appointment-list .profile-info-widget {
@@ -6707,7 +6707,7 @@ html.menu-opened body {
 	.appointment-list .profile-det-info {
 		margin-bottom: 15px;
 	}
-	.appointments .appointment-action {
+	.Appointments .appointment-action {
 		margin-top: 0;
 	}
 	.user-tabs .nav-tabs .nav-item {

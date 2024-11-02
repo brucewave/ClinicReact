@@ -11,7 +11,7 @@ function Chat() {
               {/* Chat Left */}
               <div className="chat-cont-left">
                 <div className="chat-header">
-                  <span>Chats History</span>
+                  <span>Lịch Sử Trò Chuyện</span>
                   <a href="javascript:void(0)" className="chat-compose">
                     <i className="material-icons">control_point</i>
                   </a>
@@ -21,7 +21,7 @@ function Chat() {
                     <div className="input-group-prepend">
                       <i className="fas fa-search"></i>
                     </div>
-                    <input type="text" className="form-control" placeholder="Search" />
+                    <input type="text" className="form-control" placeholder="Tìm kiếm" />
                   </div>
                 </form>
                 <div className="chat-users-list">
@@ -111,7 +111,7 @@ function Chat() {
                         <input type="file" />
                       </div>
                     </div>
-                    <input type="text" className="input-msg-send form-control" placeholder="Type something" />
+                    <input type="text" className="input-msg-send form-control" placeholder="Gửi tin nhắn..." />
                     <div className="input-group-append">
                       <button type="button" className="btn msg-send-btn"><i className="fab fa-telegram-plane"></i></button>
                     </div>

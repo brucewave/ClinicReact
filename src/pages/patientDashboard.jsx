@@ -2,7 +2,9 @@ import React from 'react'
 
 function patientDashboard() {
   return (
-    <div>patientDashboard</div>
+    <div>
+      
+    </div>
   )
 }
 
