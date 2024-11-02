@@ -9,7 +9,6 @@ import PatientProfile from './pages/patientProfile'
 import PrivacyPolicy from './pages/privacyPolicy'
 import ProfileSettings from './pages/profileSettings'
 import Reviews from './pages/Reviews'
-import ScheduleTimings from './pages/scheduleTimings'
 import Search from './pages/Search'
 import SocialMedia from './pages/socialMedia'
 import TermCondition from './pages/termCondition'
@@ -19,7 +18,8 @@ import Favourites from './pages/Favourites'
 import Booking from './pages/Booking'
 import Chat from './pages/Chat'
 import Header from './components/Header'
-
+import Footer from './components/Footer'
+import ScheduleTimings from './pages/scheduleTimings'
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import 'slick-carousel/slick/slick.css';
@@ -29,6 +29,7 @@ import 'slick-carousel/slick/slick-theme.css';
 function App() {
   return (
     <div>
+      <Header />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -44,7 +45,7 @@ function App() {
           <Route path="/privacyPolicy" element={<privacyPolicy />} />
           <Route path="/profileSettings" element={<profileSettings />} />
           <Route path="/reviews" element={<Reviews />} />
-          <Route path="/scheduleTimings" element={<scheduleTimings />} />
+          <Route path="/scheduleTimings" element={<ScheduleTimings />} />
           <Route path="/search" element={<Search />} />
           <Route path="/socialMedia" element={<socialMedia />} />
           <Route path="/termCondition" element={<TermCondition />} />
@@ -55,6 +56,7 @@ function App() {
           <Route path="/chat" element={<Chat />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   )
 }
