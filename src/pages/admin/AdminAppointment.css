@@ -1,0 +1,105 @@
+/* ClinicReact/src/pages/admin/AdminAppointment.css */
+
+/* General Styles */
+.page-wrapper {
+    padding: 20px;
+}
+
+.content {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Page Header */
+.page-header {
+    margin-bottom: 20px;
+}
+
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.breadcrumb {
+    list-style: none;
+    padding: 0;
+}
+
+.breadcrumb-item {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Card Styles */
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.table th {
+    background-color: #f8f8f8;
+}
+
+/* Avatar Styles */
+.table-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    margin-right: 10px;
+}
+
+.avatar-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Status Toggle */
+.status-toggle {
+    display: flex;
+    align-items: center;
+}
+
+.check {
+    display: none;
+}
+
+.check-toggle {
+    cursor: pointer;
+}
+
+/* Text Alignment */
+.text-right {
+    text-align: right;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .page-wrapper {
+        padding: 10px;
+    }
+
+    .table th, .table td {
+        padding: 5px;
+    }
+}
